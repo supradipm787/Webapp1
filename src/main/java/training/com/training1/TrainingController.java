@@ -21,7 +21,7 @@ return "Hello World - training for Developer !!!";
 
 @RequestMapping("/scrumtraining")
 public String scrumtraining() {
-return "Hello  - training for Scrum Masters !!!";
+return "Hello - training for Scrum Masters !!!";
 }  
   
 }
