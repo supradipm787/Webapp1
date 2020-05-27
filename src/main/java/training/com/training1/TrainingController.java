@@ -14,8 +14,14 @@ import org.springframework.web.bind.annotation.GetMapping;
  */
 @RestController
 public class TrainingController {
-@RequestMapping("/training")
+@RequestMapping("/devtraining")
 public String index() {
-return "Hello World Developer for training 1 !!!";
+return "Hello World - training for Developer !!!";
 }
+
+@RequestMapping("/scrumtraining")
+public String scrumtraining() {
+return "Hello World - training for Scrum Masters !!!";
+}  
+  
 }
