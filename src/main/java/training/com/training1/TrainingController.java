@@ -16,12 +16,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class TrainingController {
 @RequestMapping("/devtraining")
 public String index() {
-return "Hello - training for Developer !!!";
+return "Hello - training for Developer 28th May !!!";
 }
 
 @RequestMapping("/scrumtraining")
 public String scrumtraining() {
-return "Hello - training for Scrum Masters !!!";
+return "Hello - training for Scrum Masters 28th May !!!";
 }  
   
 }
