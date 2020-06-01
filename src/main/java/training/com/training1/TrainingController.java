@@ -21,7 +21,7 @@ return "Hello - training for Developer 28th May !!!";
 
 @RequestMapping("/scrumtraining")
 public String scrumtraining() {
-return "Hello - training for Scrum Masters 28th May !!!";
+return "Hello - training for Scrum Masters 28th May 1st June !!!";
 }  
   
 }
