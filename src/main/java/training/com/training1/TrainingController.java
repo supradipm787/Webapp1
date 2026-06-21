@@ -9,19 +9,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 //import org.springframework.web.bind.annotation.ResponseBody;
 /**
  *
- * @author manoj.bardhan
+ * @author supradip.majumdar
  *
  */
 @RestController
 public class TrainingController {
 @RequestMapping("/devtraining")
 public String index() {
-return "Hello : GD & training for Developers of Cybage on Domain Driven design & Microservice Architecture by 18th Feb 2023 !!!!!!!!";
+return "GD & training for Developers of Cybage on Domain Driven design & Microservice Architecture by 18th Feb 2023 !!!!!!!!";
 }
 
 @RequestMapping("/scrumtraining")
 public String scrumtraining() {
-return "Hello : GD & training on Scrum Master & Product Owner to Project Managers of Cybage by 1st June 2023!!!!!!";
+return "GD & training on Scrum Master & Product Owner to Project Managers of Cybage by 1st June 2023!!!!!!";
 }  
   
 }
